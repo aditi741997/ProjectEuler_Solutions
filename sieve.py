@@ -27,7 +27,8 @@ def primelist(l,u):
 		i += 1
 	return ans
 	#if ith true hai to append i+1 in list of primes.
-t1 = time.time()
-x = primelist(1,2**25)
-t2 = time.time()
-print len(x), t2-t1
+if __name__ == '__main__':
+	t1 = time.time()
+	x = primelist(1,2**25)
+	t2 = time.time()
+	print len(x), t2-t1
