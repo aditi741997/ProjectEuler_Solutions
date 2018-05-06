@@ -38,27 +38,27 @@ def primelist(l,u):
 	return ans
 	#if ith true hai to append i+1 in list of primes.
 
-no_of_tests = int(raw_input())
-x = 0
-mn = []
-while x < no_of_tests:
-	# ranger = raw_input()
-	x += 1
-	# divide range by space
-	lu = map(int, raw_input().split())
-	lower = lu[0]
-	upper = lu[1]
-	m = primelist(lower, upper)
-	for elems in m:
-		mn.append(elems)
-	if x <= no_of_tests - 1:
-		mn.append(-1)
+# no_of_tests = int(raw_input())
+# x = 0
+# mn = []
+# while x < no_of_tests:
+# 	# ranger = raw_input()
+# 	x += 1
+# 	# divide range by space
+# 	lu = map(int, raw_input().split())
+# 	lower = lu[0]
+# 	upper = lu[1]
+# 	m = primelist(lower, upper)
+# 	for elems in m:
+# 		mn.append(elems)
+# 	if x <= no_of_tests - 1:
+# 		mn.append(-1)
 
-for yoy in mn:
-	if yoy > -1:
-		print yoy
-	else:
-		print "\n"
+# for yoy in mn:
+# 	if yoy > -1:
+# 		print yoy
+# 	else:
+# 		print "\n"
 
 def sumsieve(n):
 	j=2
@@ -81,10 +81,10 @@ def sumsieve(n):
 	return sun
 
 
-# t1=time.time()
-# # print sumsieve(2000000)
-# t2=time.time()
-# print t2-t1
+t1=time.time()
+print sumsieve(2000000)
+t2=time.time()
+print t2-t1
 
 # print sieve(30)
 

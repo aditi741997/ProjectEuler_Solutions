@@ -52,14 +52,14 @@ prime = primelist(10000000,10010000)
 
 
 answer = 0
-# for elem in prime:
-# 	answer += big_G(elem)
+for elem in prime:
+	answer += big_G(elem)
 #when u take to x+1 levels :: 
 # g(p, rt p) = sum(i = 0 to x) g(p - i*(rt p) - x + i, rt p)
 
 
 
-print math.floor(3.14)
-print math.floor(-4.6)
-#print answer
-#print answer%1000000007
+# print math.floor(3.14)
+# print math.floor(-4.6)
+print answer
+print answer%1000000007

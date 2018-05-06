@@ -2,7 +2,7 @@ def checkprime(n):
 	k=2
 	start=True
 	while k<=(n**0.5) and start==True:
-	k += 1
+		k += 1
 	return start
 
 print checkprime(17)
@@ -38,6 +38,5 @@ def yoprime(m):
 		t += 2
 	return (t-2)
 
-print mprime(3)
-print mprime(1001)
-print mprime(10001)
+print yoprime(6)
+print yoprime(10001)

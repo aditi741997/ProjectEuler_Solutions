@@ -16,15 +16,14 @@ bool isReversible(int n)
 	{
 		strRev += strN[len - 1- i];
 	}
-	
 }
 
 int main()
 {
 	int Rcount = 0;
-	for (int i = 1; i < 1000000000; i ++)
+	for (int i = 1; i < 1000000000; i++)
 	{
-		if isReversible(i)
+		if (isReversible(i))
 		{
 			Rcount += 1;
 		}
